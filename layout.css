@@ -28,7 +28,7 @@ body {
     text-align: center;
     margin: 0;
     color: white;
-    margin-top: 600px;
+    margin-top: 45px;
   }
 
   a {
@@ -62,4 +62,5 @@ body {
     border: none;
     padding-top: 500px;
     width: 150px;
+    position: fixed
   }
