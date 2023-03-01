@@ -14,21 +14,28 @@ body {
     height: 100vh;
   }
 
-  h1 {
-    display: inline;
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: fixed;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 0;
     color: white;
   }
 
   h4 {
-    display: inline;
-    positon: fixed;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 0;
     color: white;
-    margin-top: 45px;
+    margin-top: 5px;
   }
 
   a {
@@ -48,8 +55,6 @@ body {
     position: fixed;
   }
 
-
-
   a:hover {
     text-decoration: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -58,9 +63,9 @@ body {
   .audio {
     display: flex;
     justify-content: center;
+    margin: 0;
     background-color: transparent;
     border: none;
     padding-top: 500px;
-    width: 150px;
-    position: fixed
+    position: fixed;
   }
