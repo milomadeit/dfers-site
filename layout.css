@@ -22,6 +22,15 @@ body {
     color: white;
   }
 
+  h4 {
+    display: inline;
+    positon: fixed;
+    text-align: center;
+    margin: 0;
+    color: white;
+    margin-top: 600px;
+  }
+
   a {
     display: flex;
     flex-direction: column;
