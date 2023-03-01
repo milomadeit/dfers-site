@@ -1,0 +1,43 @@
+body {
+    font-family: monospace;
+    color: black;
+    background-color: #FA940A;
+    background-image: url('images/bgimage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+  }
+
+
+
+  a:hover {
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
